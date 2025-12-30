@@ -3,79 +3,8 @@
     background-color: chartreuse;
     align-self: stretch;
 }
-.main__img {
-    max-height: 200px;
-    width: 100%;
-}
-
 .main__content {
     padding: 30px;
 }
 
-/* /////////////////////////////START usersCARD////////////////////////////////////// */
-.user {
-    display: flex;
-    gap: 0 30px;
-    margin-bottom: 40px;
-}
-
-.user__avatar {
-    width: 150px;
-    height: 150px;
-}
-
-.user__data {
-    display: flex;
-    flex-flow: column wrap;
-}
-
-.user__name {
-    font-size: var(--big-size);
-    flex-grow: 1;
-}
-
-.user__resume {
-    font-size: 20px;
-}
-
-.user__resume>*:not(:last-child) {
-    margin-bottom: 5px;
-}
-
 /* /////////////////////////////START my-posts////////////////////////////////////// */
-
-.posts__form {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-    gap: 10px 0;
-}
-
-.posts__title {
-    font-size: var(--big-size);
-    margin-bottom: 10px;
-}
-
-.posts__textarea {
-    align-self: stretch;
-    height: 50px;
-}
-
-.posts__button {
-    align-self: end;
-    background-color: green !important;
-    padding: 10px 30px;
-}
-
-.posts__post {
-    display: flex;
-    align-items: center;
-    gap: 0 30px;
-}
-
-.posts__circle {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    background-color: yellow;
-}

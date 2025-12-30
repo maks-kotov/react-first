@@ -1,0 +1,12 @@
+.post {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: yellow;
+}

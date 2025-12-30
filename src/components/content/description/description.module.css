@@ -1,0 +1,28 @@
+.user {
+    display: flex;
+    gap: 0 30px;
+    margin-bottom: 40px;
+}
+
+.user__avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.user__data {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.user__name {
+    font-size: var(--big-size);
+    flex-grow: 1;
+}
+
+.user__resume {
+    font-size: 20px;
+}
+
+.user__resume>*:not(:last-child) {
+    margin-bottom: 5px;
+}

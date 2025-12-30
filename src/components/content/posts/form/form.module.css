@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 10px 0;
+}
+
+.title {
+    font-size: var(--big-size);
+    margin-bottom: 10px;
+}
+
+.textarea {
+    align-self: stretch;
+    height: 50px;
+}
+
+.button {
+    align-self: end;
+    background-color: green !important;
+    padding: 10px 30px;
+}
