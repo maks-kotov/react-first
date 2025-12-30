@@ -1,0 +1,16 @@
+.aside {
+    grid-area: a;
+    background-color: brown;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.aside>nav>ul :not(:last-child)>li {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.aside>nav>ul :last-child>li {
+    color: #fff;
+    margin-top: 30px;
+}

@@ -1,0 +1,13 @@
+:root {
+  --color1: gray;
+  --big-size: 28px;
+}
+body {
+  font-size: 16px;
+  font-family: cursive;
+  line-height: 1;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
