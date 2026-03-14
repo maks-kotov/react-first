@@ -1,8 +1,9 @@
 import styles from "./topImg.module.css"
+import ostrov from "../../../images/ostrov.jpg"
 function TopImg() {
     return (
         <header>
-                <img className={styles.img} src="./src/assets/images/ostrov.jpg" alt="main img"></img>
+                <img className={styles.img} src={ostrov} alt="main img"></img>
         </header>
     )
 }

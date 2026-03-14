@@ -1,9 +1,10 @@
 import styles from "./description.module.css"
+import avatar from "../../../images/avatar.jpg"
 function Description() {
     return (
         <section className={styles.user}>
             <div>
-                <img src="./src/assets/images/avatar.jpg" className={styles.user__avatar} alt="avatar"></img>
+                <img src={avatar} className={styles.user__avatar} alt="avatar"></img>
             </div>
             <div className={styles.user__data}>
                 <div className={styles.user__name}>makson</div>
