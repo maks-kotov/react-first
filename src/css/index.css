@@ -1,0 +1,116 @@
+:root {
+  --color1: gray;
+  --big-size: 28px;
+}
+body {
+  font-size: 16px;
+  font-family: cursive;
+  line-height: 1;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas: 
+                      "h h h" 
+                      "a m m";
+  row-gap: 12px;
+  column-gap: 12px;
+}
+.logo {
+  width: 40px;
+}
+.header {
+  background-color: green;
+  padding: 10px;
+  grid-area: h;
+  display: flex;
+  align-items: center;
+}
+.aside {
+  grid-area: a;
+  background-color: brown;
+  padding: 10px;
+  font-size: 21px;
+}
+.aside > nav > ul :not(:last-child) > li {
+  color: #fff;
+  margin-bottom: 5px;
+}
+.aside > nav > ul :last-child > li {
+  color: #fff;
+  margin-top: 30px;
+}
+.main {
+  grid-area: m;
+  background-color: chartreuse;
+  align-self: stretch;
+}
+.main__img {
+  max-height: 200px;
+  width: 100%;
+}
+.main__content {
+  padding: 30px;
+}
+/* /////////////////////////////START usersCARD////////////////////////////////////// */
+.user-card {
+  display: flex;
+  gap: 0 30px;
+  margin-bottom: 40px;
+}
+.user-card__avatar {
+  width: 150px;
+  height: 150px;
+}
+.user-card__data {
+  display: flex;
+  flex-flow: column wrap;
+}
+.user-card__name {
+  font-size: var(--big-size);
+  flex-grow: 1;
+}
+.user-card__resume {
+  font-size: 20px;
+}
+.user-card__resume > *:not(:last-child) {
+  margin-bottom: 5px;
+}
+/* /////////////////////////////START my-posts////////////////////////////////////// */
+
+.my-posts__form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  gap: 10px 0;
+}
+.my-posts__title {
+  font-size: var(--big-size);
+  margin-bottom: 10px;
+}
+.my-posts__textarea {
+  align-self: stretch;
+  height: 50px;
+}
+.my-posts__button {
+  align-self: end;
+  background-color: green !important;
+  padding: 10px 30px;
+}
+.my-posts__post {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
+.my-posts__circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: yellow;
+}
