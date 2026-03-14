@@ -11,7 +11,7 @@
 
 ## 🌭 Деплой:
 
-[https://vercel.com/maxsyper8902-7970s-projects/react-first](https://vercel.com/maxsyper8902-7970s-projects/react-first).
+[https://react-first-nine-theta.vercel.app/](https://react-first-nine-theta.vercel.app/).
 
 ---
 
